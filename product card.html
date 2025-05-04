@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Interactive Product Cards</title>
+  <link rel="stylesheet" href="pro.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Search Bar -->
+  <div class="search-container">
+    <input type="text" id="search" placeholder="Search products..." onkeyup="filterProducts()">
+  </div>
+
+  <div class="card-grid" id="productGrid">
+    <!-- Product Cards will be dynamically inserted here -->
+  </div>
+
+  <div id="toast" class="toast">✔️ Added to cart!</div>
+
+  <script src="pro.js"></script>
+</body>
+</html>
